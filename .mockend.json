@@ -6,9 +6,10 @@
     }
   },
   "Comment": {
-    "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
-    }
+    },
+    "tags":{"string": {} },
+    "body": { "string": {} }
   }
 }
