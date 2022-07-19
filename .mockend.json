@@ -4,8 +4,8 @@
     "comments": {
       "hasMany": "Comment"
     },
-    "author":{"string": {} },
-    "tags":{"string": {} }
+    "body":{"string": {} },
+    "tag":{"string": {} }
   },
   "Comment": {
     "post": {
