@@ -3,13 +3,13 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
+    },
+    "tags":{"string": {} }
   },
   "Comment": {
     "post": {
       "belongsTo": "Post"
     },
-    "tags":{"string": {} },
     "body": { "string": {} }
   }
 }
